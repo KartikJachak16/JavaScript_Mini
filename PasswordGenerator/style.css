@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3C6E71;
+    color: #FFFFFF;
+}
+
+.container {
+    margin: 12%;
+    width: 100%;
+    max-width: 700px;
+}
+
+.DisplayBox {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #D9D9D9;
+    border-bottom: 4px solid #D9D9D9;
+    padding-bottom: 8px;
+}
+
+.DisplayBox img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.DisplayBox input {
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    background: #284b63 ;
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button p {
+    padding-left: 10px;
+}
+
+button img {
+    width: 25px;
+}
