@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #003049;
+}
+
+.container {
+    margin: 12%;
+    width: 100%;
+    max-width: 500px;
+}
+
+.Age-Container {
+    width: 100%;
+    margin: 20px 0;
+    background: #669bbc;
+    color: #003049;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 10px;
+    opacity: .8;    
+}
+
+.Age-Container input {
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 15px 10px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Age-Container input::-webkit-calendar-picker-indicator {
+    top: 12px;
+    left: 280px;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% -10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.Age-Container button {
+    border: 0;
+    outline: 0;
+    background: #c1121f;
+    color: #fdf0d5;
+    padding: 18px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container h1 {
+    font-weight: -100;
+    font-size: 45px;
+    color: #fdf0d5;
+}
+
+.container span {
+    font-size: 50px;
+    color: #c1121f;
+    padding: 10px 0;
+}
+
+#ages {
+    font-size: 20px;
+    color: #fdf0d5;
+}
+
+#ages span {
+    font-size: 20px;
+    color: #fb8500;
+}
