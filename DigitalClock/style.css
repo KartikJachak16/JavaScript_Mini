@@ -1,0 +1,35 @@
+body {
+    background: #f5ebe0;
+}
+
+.timeBox {
+    width: 90%;
+    max-width: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/background.png");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    font-size: 45px;
+    margin: 200px auto 0;
+    border-radius: 10px;
+}
+
+.controls {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.controls img {
+    padding: 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.controls img:nth-child(2) {
+    width: 100px;
+}
+
